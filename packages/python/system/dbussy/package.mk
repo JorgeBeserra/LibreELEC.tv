@@ -3,7 +3,7 @@
 
 PKG_NAME="dbussy"
 PKG_VERSION="bd4a5c3ddd2a59df2c10d84cfa7902102b68f050"
-PKG_SHA256="4541064e19277784d0098d9010967488efb1e007bfa309ea140cefb724713317"
+PKG_SHA256="bbd4387a40e591778b0d401ee54bbc2cc91aabeb08271f5cab7106a8face19d4"
 PKG_LICENSE="LGPL-2.1-or-later"
 PKG_SITE="https://gitlab.com/ldo/dbussy"
 PKG_URL="https://gitlab.com/ldo/dbussy/-/archive/${PKG_VERSION}/dbussy-${PKG_VERSION}.tar.gz"
