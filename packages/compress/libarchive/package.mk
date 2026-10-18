@@ -2,8 +2,8 @@
 # Copyright (C) 2017-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="libarchive"
-PKG_VERSION="3.8.8"
-PKG_SHA256="3873a88801da067d0528a989af06877710529d50ee8fe6f3970cbb4302efb918"
+PKG_VERSION="3.8.10"
+PKG_SHA256="56cad765459d5ee25a3b761f90c47d99379d28297fbfb72d908880d6b875fb96"
 PKG_LICENSE="BSD-2-Clause"
 PKG_SITE="https://www.libarchive.org"
 PKG_URL="https://github.com/libarchive/libarchive/releases/download/v${PKG_VERSION}/${PKG_NAME}-${PKG_VERSION}.tar.xz"
@@ -12,7 +12,7 @@ PKG_DEPENDS_TARGET="cmake:host gcc:host bzip2 lz4 lzo openssl pcre2 xz zlib zstd
 PKG_LONGDESC="A multi-format archive and compression library."
 
 PKG_CMAKE_OPTS_TARGET="-DCMAKE_POSITION_INDEPENDENT_CODE=1 \
-                       -DBUILD_SHARED_LIBS=OFF \
+                       -DBUILD_SHARED_LIBS=ON \
                        -DENABLE_ACL=ON \
                        -DENABLE_BZip2=ON \
                        -DENABLE_CAT=OFF \
