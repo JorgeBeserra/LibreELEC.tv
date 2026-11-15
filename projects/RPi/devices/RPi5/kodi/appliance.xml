@@ -5,7 +5,7 @@
     <category id="audio">
       <group id="1">
         <setting id="audiooutput.audiodevice">
-          <default>ALSA:hdmi:CARD=vc4hdmi0,DEV=0</default>
+          <default>PIPEWIRE:alsa_output._sys_devices_platform_soc_107c000000_soc_107c000000_sound_sound_card3.pro-output-0|Built-in Audio Pro</default>
         </setting>
       </group>
     </category>

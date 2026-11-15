@@ -1,0 +1,2 @@
+[default-nodes]
+default.configured.audio.sink=alsa_output._sys_devices_platform_soc_107c000000_soc_107c000000_sound_sound_card3.pro-output-0
